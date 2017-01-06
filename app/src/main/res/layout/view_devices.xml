@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:id="@+id/layout_devices"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:divider="@drawable/divider"
+        app:showDividers="beginning|middle|end">
+
+        <TextView
+            style="@style/TagText"
+            android:text="已配对的设备" />
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            style="@style/TagText"
+            android:text="已扫描到的设备" />
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </android.support.v7.widget.LinearLayoutCompat>
+
+</merge>
+

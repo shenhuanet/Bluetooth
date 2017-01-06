@@ -1,0 +1,4 @@
+DEVICE_TYPE_CLASSIC    1    BR/EDR
+DEVICE_TYPE_LE         2    LE-only
+DEVICE_TYPE_DUAL       3    双模式BR/EDR/LE
+DEVICE_TYPE_UNKNOWN    0    蓝牙不可用
