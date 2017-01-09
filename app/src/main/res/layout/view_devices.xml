@@ -14,7 +14,8 @@
             style="@style/TagText"
             android:text="已配对的设备" />
 
-        <ListView
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_paired"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
@@ -22,7 +23,8 @@
             style="@style/TagText"
             android:text="已扫描到的设备" />
 
-        <ListView
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_scanned"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
